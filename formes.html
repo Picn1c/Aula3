@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Forms</title>
+</head>
+<style type="text/css">
+	form {
+		background: grey;
+		border: 1px solid black;
+		width: 300px;
+		height: auto;
+	    padding: 10px;
+	    display: flex;
+	    flex-direction: column;
+	}
+
+	.txt {
+		margin-top: 5px;
+		margin-bottom: 5px;
+		outline: none;
+    }
+
+    .btn {
+    	background: silver;
+    	border: 1px solid whitesmoke;
+    }
+
+
+</style>
+<body>
+
+<form name="cadrasto" method="post"> 
+	<input class="txt" placeholder="digite seu login" type="text" name="">
+	<input class="txt" placeholder="digite seu password" type="password" name="">
+	<input class="btn" type="submit" name="">
+	<select name="fruta">
+		<option>Selecione</option>
+		<option>Banana</option>
+		<option>Laranja</option>
+	</select>
+	<input type="checkbox" name="a">
+	<input type="checkbox" name="a">
+	<input type="radio" name="testes" value="">
+	<input type="radio" name="teste" value="">
+</form>
+	
+</body>
+</html>
